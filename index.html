@@ -15,7 +15,7 @@
 
     function drawChart() {
       var queryString = encodeURIComponent('SELECT *');
-      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1VHJ3Q7QSSoSmrsa0z7O5-5ZphVHrEPJ_mgCAUY7YXM4/edit?usp=sharing' + queryString);
+      var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1VCBDHyJIRn7BFAD7RUR6Melu63uSNOdrzWRL8gA8ooo/edit#gid=0' + queryString);
 
       query.send(function(response) {
         if (response.isError()) {
